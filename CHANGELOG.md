@@ -1,13 +1,13 @@
-# QuickLook Changelog
+# SpringQuickLook Changelog
 
-> QuickLook Changelog starting from version `4.0.0`.
+> SpringQuickLook Changelog starting from version `4.0.0`.
 
 ## 4.6.0
 
 - Add `Alt+L` shortcut to toggle line numbers in text viewer, with preference persistence [#932](https://github.com/QL-Win/QuickLook/issues/932)
 - Add persist `WordWrap` preference when toggling with `Alt+Z`
 - Add light and dark application icons [#1154](https://github.com/QL-Win/QuickLook/issues/1154)
-- Add an AppUserModelID so the media flyout identifies QuickLook [#2023](https://github.com/QL-Win/QuickLook/issues/2023)
+- Add an AppUserModelID so the media flyout identifies SpringQuickLook [#2023](https://github.com/QL-Win/QuickLook/issues/2023)
 - Add `.resources` (.NET binary resources) support to TextViewer
 - Add Greenfish Icon Editor Pro document support (`.gfie`, `.gfi`) to image viewer
 - Add Excalidraw support to image viewer [#1955](https://github.com/QL-Win/QuickLook/issues/1955)
@@ -31,7 +31,7 @@
 - Improve acrylic tint opacity and color values [#1912](https://github.com/QL-Win/QuickLook/issues/1912)
 - Add magic number checks to support image files without an extension [#1868](https://github.com/QL-Win/QuickLook/pull/1868)
 - Add option to close preview when losing focus [#484](https://github.com/QL-Win/QuickLook/issues/484) (Experimental)
-- Add auto-terminate QuickLook.exe before install/upgrade/uninstall
+- Add auto-terminate SpringQuickLook.exe before install/upgrade/uninstall
 - Add `.csv`, `.tsv` and `.psv` rainbow highlighters support
 - Add `.jsonc` extension to JSON syntax highlighters support
 - Add `.hxx` extension to C++ syntax definitions
@@ -47,7 +47,7 @@
 - Add `.msp` installer support for app viewer
 - Add `.m3u` and `.m3u8` highlighting definitions support
 - Add ShellScript syntax extensions for `.bashrc`, `.bash_profile`, `.bash_login`, `.profile`, `.bash_logout`, `.zshrc`, `.zprofile`, `.zlogin`, `.zlogout`, `.dashrc`, `.kshrc`, `.mkshrc`, `.ashrc` and `.shrc`
-- Add IDMan (Internet Download Manager) support instead of [QuickLook.Plugin.IDManViewer](https://github.com/emako/QuickLook.Plugin.IDManViewer)
+- Add IDMan (Internet Download Manager) support instead of [SpringQuickLook.Plugin.IDManViewer](https://github.com/emako/SpringQuickLook.Plugin.IDManViewer)
 - Support search panel in CSV viewer [#1824](https://github.com/QL-Win/QuickLook/issues/1824)
 - Add ShellScriptDetector and register in FormatDetector
 - Add Graphviz (`.gv` and `.dot`) support for image viewer
@@ -106,7 +106,7 @@
 - Update LAVFilters to `0.81.0` [#1362](https://github.com/QL-Win/QuickLook/issues/1362) [#1855](https://github.com/QL-Win/QuickLook/issues/1855) [#1863](https://github.com/QL-Win/QuickLook/issues/1863)
   > A possible side effect is that users with older GPUs or without the latest VC++ Redistributable installed may experience video playback failures.
   >
-  > Nevertheless, QuickLook has chosen to continue with an up-to-date update strategy.
+  > Nevertheless, SpringQuickLook has chosen to continue with an up-to-date update strategy.
   >
   > If you encounter any issues, you can refer to [#1362](https://github.com/QL-Win/QuickLook/issues/1362) and consider downgrading your LAVFilters version.
 
@@ -156,7 +156,7 @@
 - Add option to disable automatic update check at startup [#1801](https://github.com/QL-Win/QuickLook/issues/1801)
 - Update PowerShell syntax colors in dark theme
 - Improve TextViewerPanel UI and usability
-- Fix DOpus crash when QuickLook runs with different privilege level [#1781](https://github.com/QL-Win/QuickLook/issues/1781)
+- Fix DOpus crash when SpringQuickLook runs with different privilege level [#1781](https://github.com/QL-Win/QuickLook/issues/1781)
 - Fix volume control exceeding limits during mouse wheel scroll [#1813](https://github.com/QL-Win/QuickLook/issues/1813)
 - Fix error in RTF file originating from version 4.2.1 [#1826](https://github.com/QL-Win/QuickLook/issues/1826)
 
@@ -209,7 +209,7 @@
 - Add `SubRip Subtitle (.srt) files`, `Protobuf`, `NSIS`, `.gitmodules`, `.dotsettings`, `.gitignore`, `.gitattributes`, `Markdown`, `reStructuredText`, `simple QML syntax`, `.env`, `Configuration (.conf;.config;.cfg)` highlighting [#1002](https://github.com/QL-Win/QuickLook/issues/1002)
 - Add dark mode highlighting for `PowerShell`, `Registry`, `C`, `C++`, `Java`, `Rust`, `SQL`, `Ruby`, `R`, `PHP`, `Pascal`, `Objective-C`, `Lisp`, `Kotlin`, `Erlang`, `Dart`, `Swift`, `VisualSolution`, `CMake`
 - Add `MakefileDetector`, `CMakeListsDetector for CMakeLists.txt`, `DockerfileDetector`, `HostsDetector for hosts` for text viewer
-- Improve QuickLook initialization speed
+- Improve SpringQuickLook initialization speed
 - Optimize JSONDetector with Span
 - Set RichTextBox background to transparent
 - Revert Add Sandbox detection from 4.1.0 which will call crash
@@ -278,7 +278,7 @@
 - Add support for Multi Commander
 - Add support for both Everything v1.4 and v1.5(a)
 - Add "Open Data Folder" and dark mode support to tray menu
-- Add "Restart QuickLook" option to tray menu [#1448](https://github.com/QL-Win/QuickLook/issues/1448)
+- Add "Restart SpringQuickLook" option to tray menu [#1448](https://github.com/QL-Win/QuickLook/issues/1448)
 - Implement modern message box UI
 - Replace icons with Segoe Fluent Icons
 - Detect and auto-fix Windows blocking issues [#1495](https://github.com/QL-Win/QuickLook/issues/1495)

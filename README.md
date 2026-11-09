@@ -2,10 +2,10 @@
 <!-- Hero Section with Gradient Background Effect -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png">
-  <img src="https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png" width="140" alt="QuickLook Logo">
+  <img src="https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png" width="140" alt="SpringQuickLook Logo">
 </picture>
 
-# QuickLook
+# SpringQuickLook
 
 <div align="center">
 
@@ -55,7 +55,7 @@
 <br><br>
 
 <!-- Hero Image with Modern Styling -->
-<img src="https://raw.githubusercontent.com/QL-Win/QuickLook/refs/heads/master/Build/Assets/Branding/01.png" width="800" alt="QuickLook Preview" style="border-radius: 20px;">
+<img src="https://raw.githubusercontent.com/QL-Win/QuickLook/refs/heads/master/Build/Assets/Branding/01.png" width="800" alt="SpringQuickLook Preview" style="border-radius: 20px;">
 
 <br><br>
 
@@ -115,13 +115,13 @@ macOS users? They just press <kbd>Space</kbd>. Instant preview. **Any file**.
 
 **Now Windows has it too.** 🎉
 
-QuickLook brings that buttery-smooth, instant-preview experience to Windows. No more waiting. No more opening heavy applications just to peek at a document.
+SpringQuickLook brings that buttery-smooth, instant-preview experience to Windows. No more waiting. No more opening heavy applications just to peek at a document.
 
 </td>
 <td width="40%">
 
 ```
-WITHOUT QuickLook:
+WITHOUT SpringQuickLook:
 ┌─────────────────┐
 │ 1. Double click │
 │ 2. Wait...      │
@@ -131,7 +131,7 @@ WITHOUT QuickLook:
 └─────────────────┘
    ⏱️ ~10 seconds
 
-WITH QuickLook:
+WITH SpringQuickLook:
 ┌─────────────────┐
 │ 1. Press SPACE  │
 │ 2. Done! ✨     │
@@ -151,7 +151,7 @@ WITH QuickLook:
 
 <div align="center">
 
-### What Makes QuickLook Extraordinary
+### What Makes SpringQuickLook Extraordinary
 
 </div>
 
@@ -421,7 +421,7 @@ scoop install quicklook
 <td width="50%">
 
 ```
-Step 1️⃣  Install QuickLook
+Step 1️⃣  Install SpringQuickLook
          ↓
 Step 2️⃣  It runs automatically
          ↓
@@ -436,7 +436,7 @@ Step 5️⃣  🎉 Magic happens!
 <td width="50%">
 
 **💡 Pro Tips:**
-- QuickLook lives in your system tray
+- SpringQuickLook lives in your system tray
 - Works with **any file** in File Explorer
 - Use arrow keys to preview multiple files
 - Press `Esc` or `Space` again to close
@@ -513,9 +513,9 @@ Step 5️⃣  🎉 Magic happens!
 
 <div align="center">
 
-### Supercharge QuickLook with Plugins
+### Supercharge SpringQuickLook with Plugins
 
-*Transform QuickLook into a universal file viewer*
+*Transform SpringQuickLook into a universal file viewer*
 
 <br>
 
@@ -611,7 +611,7 @@ View CAD files natively
 ✅ Technical diagrams
 ```
 
-<a href="https://github.com/emako/QuickLook.Plugin.CADImport/releases">
+<a href="https://github.com/emako/SpringQuickLook.Plugin.CADImport/releases">
   <img src="https://img.shields.io/badge/Download-Plugin-0078D4?style=for-the-badge" alt="Download">
 </a>
 
@@ -636,14 +636,14 @@ Get the `.qlplugin` file
 
 **2️⃣ Install**
 
-Ensure QuickLook is currently running, select the file and press `Spacebar`.
+Ensure SpringQuickLook is currently running, select the file and press `Spacebar`.
 
 </td>
 <td width="33%" align="center">
 
 **3️⃣ Restart**
 
-Click on the `Install` button, then restart QuickLook.
+Click on the `Install` button, then restart SpringQuickLook.
 
 </td>
 </tr>
@@ -657,7 +657,7 @@ Click on the `Install` button, then restart QuickLook.
 
 **1️⃣ Quit**
 
-Quit QuickLook.
+Quit SpringQuickLook.
 
 </td>
 <td width="33%" align="center">
@@ -725,7 +725,7 @@ Join our Chinese community
 
 ### **Translate**
 
-Help QuickLook speak your language
+Help SpringQuickLook speak your language
 
 Make it accessible
 
@@ -832,7 +832,7 @@ Interested in contributing? Check out our development resources:
 
 Every User Matters
 
-*Thank you for using QuickLook*
+*Thank you for using SpringQuickLook*
 
 </td>
 </tr>
@@ -854,7 +854,7 @@ Every User Matters
 
 <br><br>
 
-**QuickLook is free and open source under [GPL-3.0](https://opensource.org/licenses/GPL-3.0)**
+**SpringQuickLook is free and open source under [GPL-3.0](https://opensource.org/licenses/GPL-3.0)**
 
 *Free software, free forever. No ads, no tracking, no premium tiers.*
 
@@ -872,7 +872,7 @@ Every User Matters
 
 <br>
 
-## ⭐ Like QuickLook? Star the repo!
+## ⭐ Like SpringQuickLook? Star the repo!
 
 **Your support keeps this project alive and improving**
 
@@ -891,17 +891,17 @@ Every User Matters
   <img src="https://img.shields.io/badge/📦_Download-white?style=for-the-badge" alt="Download">
 </a>
 
-<a href="https://github.com/adnan-bhaldar/QuickLook-Website">
+<a href="https://github.com/adnan-bhaldar/SpringQuickLook-Website">
   <img src="https://img.shields.io/badge/🌐_Help maintain the homepage-00D9FF?style=for-the-badge&labelColor=000000">
 </a>
 
 <br><br>
 
-<sub>Note: The official website content may be inaccurate or out of date. To help maintain the site, please submit a PR to <a href="https://github.com/adnan-bhaldar/QuickLook-Website">QuickLook Website Repository</a></sub>
+<sub>Note: The official website content may be inaccurate or out of date. To help maintain the site, please submit a PR to <a href="https://github.com/adnan-bhaldar/SpringQuickLook-Website">SpringQuickLook Website Repository</a></sub>
 
 <br>
 
-<sub>Made with ❤️ by the QuickLook community</sub>
+<sub>Made with ❤️ by the SpringQuickLook community</sub>
 
 <br>
 

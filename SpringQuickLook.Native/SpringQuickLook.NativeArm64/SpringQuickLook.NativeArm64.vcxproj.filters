@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\SpringQuickLook.Native32\DialogHook.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\dllmain.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\HelperMethods.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\DllExport.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\Shell32.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\stdafx.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\WoW64HookHelper.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\Everything.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\FilePilot.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\DOpus.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\MultiCommander.cpp" />
+    <ClCompile Include="..\SpringQuickLook.Native32\IDMan.cpp" />
+  </ItemGroup>
+</Project>
