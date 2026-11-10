@@ -218,6 +218,9 @@ public class ViewWindowManager : IDisposable
 
     private void BeginShowNewWindow(string path, IViewer matchedPlugin)
     {
+        // Single reporting point covering InvokePreview / InvokePluginPreview / ReloadPreview
+        TelemetryService.GetInstance().RecordPreview(path);
+
         _viewerWindow.UnloadPlugin();
 
         _viewerWindow.BeginShow(matchedPlugin, path, CurrentPluginFailed);

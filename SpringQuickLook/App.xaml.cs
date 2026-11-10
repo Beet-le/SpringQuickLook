@@ -251,6 +251,9 @@ public partial class App : Application
         // Initialize MessageBox patching
         MessageBoxPatcher.Initialize();
 
+        // Start usage telemetry (first instance only; second instances never reach here)
+        TelemetryService.GetInstance().Start();
+
         CheckUpdate();
 
         CheckAndRegisterPluginIcon();
@@ -264,6 +267,9 @@ public partial class App : Application
             return;
 
         _isRunning.ReleaseMutex();
+
+        // Final delivery of the remaining telemetry samples before teardown
+        TelemetryService.GetInstance().Stop();
 
         PipeServerManager.GetInstance().Dispose();
         TrayIconManager.GetInstance().Dispose();
