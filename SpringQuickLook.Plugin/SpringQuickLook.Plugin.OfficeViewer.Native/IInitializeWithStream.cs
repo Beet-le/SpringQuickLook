@@ -16,13 +16,18 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.ComTypes;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
+/// <summary>
+/// COM interface for preview handlers that accept initialization via a stream.
+/// Many handlers (including some Office handlers) prefer this over IInitializeWithFile.
+/// </summary>
 [ComImport]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-[Guid("b7d14566-0509-4cce-a71f-0a554233bd9b")]
-internal interface IInitializeWithFile
+[Guid("b824b49d-22ac-4161-ac8a-9916e8fa3f7f")]
+internal interface IInitializeWithStream
 {
-    public void Initialize([MarshalAs(UnmanagedType.LPWStr)] string pszFilePath, uint grfMode);
+    public void Initialize([MarshalAs(UnmanagedType.Interface)] IStream pstream, uint grfMode);
 }

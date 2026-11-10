@@ -2,7 +2,7 @@
 using System;
 using System.Security.Principal;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 internal static class ShellExRegister
 {

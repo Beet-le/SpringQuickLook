@@ -1,4 +1,4 @@
-// Copyright © 2017-2026 QL-Win Contributors
+﻿// Copyright © 2017-2026 QL-Win Contributors
 //
 // This file is part of SpringQuickLook program.
 //
@@ -20,7 +20,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 /// <summary>
 /// Wraps a managed <see cref="Stream"/> as a COM IStream so that preview handlers

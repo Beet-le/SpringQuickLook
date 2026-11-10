@@ -16,29 +16,19 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 using System;
-using System.Drawing;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 [ComImport]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-[Guid("8895b1c6-b41f-4c1c-a562-0d564250836f")]
-internal interface IPreviewHandler
+[Guid("00000001-0000-0000-C000-000000000046")]
+internal interface IClassFactory
 {
-    public void SetWindow(nint hwnd, ref Rectangle rect);
+    public void CreateInstance(
+        [MarshalAs(UnmanagedType.IUnknown)] object pUnkOuter,
+        ref Guid riid,
+        [MarshalAs(UnmanagedType.IUnknown)] out object ppvObject);
 
-    public void SetRect(ref Rectangle rect);
-
-    public void DoPreview();
-
-    public void Unload();
-
-    public void SetFocus();
-
-    public void QueryFocus(out nint pHwnd);
-
-    [PreserveSig]
-    public uint TranslateAccelerator(ref Message pmsg);
+    public void LockServer([MarshalAs(UnmanagedType.Bool)] bool fLock);
 }

@@ -22,7 +22,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 /// <summary>
 /// A Windows Forms host for Preview Handlers.

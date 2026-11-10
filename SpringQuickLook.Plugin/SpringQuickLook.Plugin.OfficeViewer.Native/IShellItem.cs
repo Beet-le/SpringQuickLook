@@ -1,4 +1,4 @@
-// Copyright © 2017-2026 QL-Win Contributors
+﻿// Copyright © 2017-2026 QL-Win Contributors
 //
 // This file is part of SpringQuickLook program.
 //
@@ -15,19 +15,31 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+using System;
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.ComTypes;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 /// <summary>
-/// COM interface for preview handlers that accept initialization via a stream.
-/// Many handlers (including some Office handlers) prefer this over IInitializeWithFile.
+/// Minimal COM interface for IShellItem, used when initializing preview handlers via IInitializeWithItem.
 /// </summary>
 [ComImport]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-[Guid("b824b49d-22ac-4161-ac8a-9916e8fa3f7f")]
-internal interface IInitializeWithStream
+[Guid("43826d1e-e718-42ee-bc55-a1e261c37bfe")]
+internal interface IShellItem
 {
-    public void Initialize([MarshalAs(UnmanagedType.Interface)] IStream pstream, uint grfMode);
+    [PreserveSig]
+    public int BindToHandler(IntPtr pbc, ref Guid bhid, ref Guid riid, out IntPtr ppv);
+
+    [PreserveSig]
+    public int GetParent(out IShellItem ppsi);
+
+    [PreserveSig]
+    public int GetDisplayName(int sigdnName, [MarshalAs(UnmanagedType.LPWStr)] out string ppszName);
+
+    [PreserveSig]
+    public int GetAttributes(uint sfgaoMask, out uint psfgaoAttribs);
+
+    [PreserveSig]
+    public int Compare(IShellItem psi, uint hint, out int piOrder);
 }

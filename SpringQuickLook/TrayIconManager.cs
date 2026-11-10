@@ -43,8 +43,7 @@ internal partial class TrayIconManager : IDisposable
     {
         _icon = new TrayIconHost
         {
-            ToolTipText = string.Format(TranslationHelper.Get("Icon_ToolTip"),
-                Application.ProductVersion),
+            ToolTipText = TranslationHelper.Get("Icon_ToolTip"),
             Icon = GetTrayIconByDPI(),
             ThemeMode = TrayThemeMode.System,
             Menu =

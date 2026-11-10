@@ -1,4 +1,4 @@
-// Copyright © 2017-2026 QL-Win Contributors
+﻿// Copyright © 2017-2026 QL-Win Contributors
 //
 // This file is part of SpringQuickLook program.
 //
@@ -15,20 +15,18 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-using System;
 using System.Runtime.InteropServices;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
+/// <summary>
+/// COM interface for preview handlers that accept initialization via an IShellItem.
+/// Used as a fallback when a handler does not implement IInitializeWithStream.
+/// </summary>
 [ComImport]
 [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-[Guid("00000001-0000-0000-C000-000000000046")]
-internal interface IClassFactory
+[Guid("7f73be3f-fb79-493c-a6c7-7ee14e245841")]
+internal interface IInitializeWithItem
 {
-    public void CreateInstance(
-        [MarshalAs(UnmanagedType.IUnknown)] object pUnkOuter,
-        ref Guid riid,
-        [MarshalAs(UnmanagedType.IUnknown)] out object ppvObject);
-
-    public void LockServer([MarshalAs(UnmanagedType.Bool)] bool fLock);
+    public void Initialize([MarshalAs(UnmanagedType.Interface)] IShellItem psi, uint grfMode);
 }

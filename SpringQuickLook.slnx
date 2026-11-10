@@ -52,7 +52,15 @@
       <Platform Solution="*|ARM64" Project="ARM64" />
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="SpringQuickLook.Plugin/SpringQuickLook.Plugin.FolderViewer/SpringQuickLook.Plugin.FolderViewer.csproj">
+      <Platform Solution="*|ARM64" Project="ARM64" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
     <Project Path="SpringQuickLook.Plugin/SpringQuickLook.Plugin.FontViewer/SpringQuickLook.Plugin.FontViewer.csproj">
+      <Platform Solution="*|ARM64" Project="ARM64" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="SpringQuickLook.Plugin/SpringQuickLook.Plugin.GitViewer/SpringQuickLook.Plugin.GitViewer.csproj">
       <Platform Solution="*|ARM64" Project="ARM64" />
       <Platform Solution="*|x64" Project="x64" />
     </Project>
@@ -85,6 +93,10 @@
       <Platform Solution="*|x64" Project="x64" />
     </Project>
     <Project Path="SpringQuickLook.Plugin/SpringQuickLook.Plugin.OfficeViewer/SpringQuickLook.Plugin.OfficeViewer.csproj">
+      <Platform Solution="*|ARM64" Project="ARM64" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="SpringQuickLook.Plugin/SpringQuickLook.Plugin.OfficeViewer.Native/SpringQuickLook.Plugin.OfficeViewer.Native.csproj">
       <Platform Solution="*|ARM64" Project="ARM64" />
       <Platform Solution="*|x64" Project="x64" />
     </Project>
@@ -136,7 +148,9 @@
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.DbViewer/SpringQuickLook.Plugin.DbViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.DumpViewer/SpringQuickLook.Plugin.DumpViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.ELFViewer/SpringQuickLook.Plugin.ELFViewer.csproj" />
+    <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.FolderViewer/SpringQuickLook.Plugin.FolderViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.FontViewer/SpringQuickLook.Plugin.FontViewer.csproj" />
+    <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.GitViewer/SpringQuickLook.Plugin.GitViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.HelixViewer/SpringQuickLook.Plugin.HelixViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.HtmlViewer/SpringQuickLook.Plugin.HtmlViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.ImageViewer/SpringQuickLook.Plugin.ImageViewer.csproj" />
@@ -145,6 +159,7 @@
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.MarkdownViewer/SpringQuickLook.Plugin.MarkdownViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.MediaInfoViewer/SpringQuickLook.Plugin.MediaInfoViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.OfficeViewer/SpringQuickLook.Plugin.OfficeViewer.csproj" />
+    <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.OfficeViewer.Native/SpringQuickLook.Plugin.OfficeViewer.Native.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.PDFViewer/SpringQuickLook.Plugin.PdfViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.PEViewer/SpringQuickLook.Plugin.PEViewer.csproj" />
     <BuildDependency Project="SpringQuickLook.Plugin/SpringQuickLook.Plugin.PluginInstaller/SpringQuickLook.Plugin.PluginInstaller.csproj" />

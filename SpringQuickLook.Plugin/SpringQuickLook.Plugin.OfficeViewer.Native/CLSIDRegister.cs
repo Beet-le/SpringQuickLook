@@ -19,7 +19,7 @@ using Microsoft.Win32;
 using System;
 using System.Diagnostics;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 internal static class CLSIDRegister
 {

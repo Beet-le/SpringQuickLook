@@ -1,5 +1,4 @@
-// Copyright © 2017-2026 QL-Win Contributors
-//
+﻿//
 // This file is part of SpringQuickLook program.
 //
 // This program is free software: you can redistribute it and/or modify
@@ -15,18 +14,14 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-using System.Runtime.InteropServices;
+using Syncfusion.Licensing;
 
 namespace SpringQuickLook.Plugin.OfficeViewer;
 
-/// <summary>
-/// COM interface for preview handlers that accept initialization via an IShellItem.
-/// Used as a fallback when a handler does not implement IInitializeWithStream.
-/// </summary>
-[ComImport]
-[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-[Guid("7f73be3f-fb79-493c-a6c7-7ee14e245841")]
-internal interface IInitializeWithItem
+internal static class SyncfusionKey
 {
-    public void Initialize([MarshalAs(UnmanagedType.Interface)] IShellItem psi, uint grfMode);
+    public static void Register()
+    {
+        SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JGaF5cXGpCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdmWH1fd3RcQmlfUE1zXkdWYEs=");
+    }
 }

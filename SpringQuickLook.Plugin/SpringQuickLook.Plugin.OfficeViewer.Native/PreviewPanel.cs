@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Forms.Integration;
 
-namespace SpringQuickLook.Plugin.OfficeViewer;
+namespace SpringQuickLook.Plugin.OfficeViewer.Native;
 
 public class PreviewPanel : WindowsFormsHost, IDisposable
 {
